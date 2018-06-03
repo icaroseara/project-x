@@ -7,4 +7,5 @@ Sphinx
 coverage
 awscli
 flake8
+pynubank==0.10
 python-dotenv>=0.5.1

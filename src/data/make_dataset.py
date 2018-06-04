@@ -9,9 +9,7 @@ from dotenv import find_dotenv, load_dotenv
 from pynubank import Nubank
 from shutil import copyfile
 
-EXTERNAL_DATA_DIR = 'data/external'
-RAW_DATA_DIR = 'data/raw'
-PROCESSED_DATA_DIR = 'data/processed'
+from src.settings import EXTERNAL_DATA_DIR, RAW_DATA_DIR, PROCESSED_DATA_DIR
 
 
 def _download_external_data():
